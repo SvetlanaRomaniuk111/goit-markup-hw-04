@@ -206,8 +206,8 @@ body {
 .hero-btn:is(:hover, :focus) {
   background-color: var(--active-color);
   border: 1px solid var(--active-color);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 /** --------------- ABOUT ----------------- */
 
@@ -242,7 +242,6 @@ body {
   gap: 24px;
 }
 .work-item {
-  cursor: pointer;
   display: block;
   flex-basis: calc((100% - 48px) / 3);
 }
@@ -262,8 +261,6 @@ body {
 }
 
 .team-item {
-  cursor: pointer;
-  display: block;
   background: var(--main-bgr-color);
   flex-basis: calc((100% - 72px) / 4);
   padding-bottom: 32px;
@@ -358,8 +355,8 @@ body {
 }
 
 .projects-link:is(:hover, :focus) {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .projects-card {
